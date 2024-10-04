@@ -29,10 +29,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/Automation_exercise/Pa
     'New User Signup!')
 
 WebUI.setText(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/input_New User Signup_name'), 
-    'nhan')
+    'nhan2')
 
 WebUI.setText(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/input_New User Signup_email'), 
-    'nhan.hoang@katalon.com')
+    'nhantest@katalon.com')
 
 WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/button_Signup'))
 
@@ -41,8 +41,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_exercise
 
 WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input_Mrs_title'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__password'), 
-    'VFrE/ihxX88=')
+WebUI.setText(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__password'), 
+    'nhan123')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup/select_Day123456789101112131415161718192021_40ab5b'), 
     '1', true)
@@ -93,11 +93,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_exercise
 WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/a_Continue'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise/a_Logout'), 0)
-
-WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise/a_Delete Account'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/b_Account Deleted'), 
-    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/a_Continue'))
 

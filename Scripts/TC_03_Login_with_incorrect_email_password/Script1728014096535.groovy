@@ -19,25 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://automationexercise.com/')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Automation Exercise/a_Signup  Login'))
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Page_Automation Exercise - Signup  Login/input_Login to your account_email'), 'nhantest@katalon.com')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.setEncryptedText(findTestObject('Page_Automation Exercise - Signup  Login/input_Login to your account_password'), 
+    'Hp7XNMOJkko=')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Page_Automation Exercise - Signup  Login/button_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect'), 
+    'Your email or password is incorrect!')
 
 WebUI.closeBrowser()
 
