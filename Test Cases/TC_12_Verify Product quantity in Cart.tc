@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_12_Verify Product quantity in Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3d139bf-d8d2-4ab6-bfcd-04d7875ad394</testCaseGuid>
+</TestCaseEntity>

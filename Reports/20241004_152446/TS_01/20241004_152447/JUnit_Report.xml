@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_01" time="52.625" tests="2" failures="0" errors="0">
+   <testsuite name="TS_01" tests="2" failures="0" errors="0" time="52.625" skipped="0" timestamp="04-10-2024T15:24:52" hostname="nhan.hoang - localhost" id="Test Suites/TS_01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241004_152446/TS_01/20241004_152447"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241004_152446/TS_01/20241004_152447/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="e73707919c41243d5c77507e18dbaa6c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_04_Logout" time="30.694" classname="Test Cases/TC_04_Logout" status="PASSED">
+         <system-out><![CDATA[04-10-2024T15:24:52 - [TEST_CASE][PASSED] - Test Cases/TC_04_Logout: Test Cases/TC_04_Logout
+
+04-10-2024T15:24:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://automationexercise.com/' successfully
+
+04-10-2024T15:24:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-10-2024T15:24:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-10-2024T15:24:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-10-2024T15:24:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-10-2024T15:24:53 - [TEST_STEP][PASSED] - navigateToUrl("https://automationexercise.com/"): Navigate to 'https://automationexercise.com/' successfully
+
+04-10-2024T15:24:57 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully
+
+04-10-2024T15:24:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_02_Login_with_correct_email_password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_02_Login_with_correct_email_password' successfully
+
+04-10-2024T15:24:57 - [TEST_CASE][PASSED] - Test Cases/TC_02_Login_with_correct_email_password: Test Cases/TC_02_Login_with_correct_email_password
+
+04-10-2024T15:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise/a_Signup  Login")): Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+04-10-2024T15:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+04-10-2024T15:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email"), "nhantest@katalon.com"): Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+04-10-2024T15:25:03 - [MESSAGE][PASSED] - Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+04-10-2024T15:25:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password"), "VFrE/ihxX88="): Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+04-10-2024T15:25:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+04-10-2024T15:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/button_Login")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+04-10-2024T15:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+04-10-2024T15:25:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Automation Exercise/a_Logout")): Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+04-10-2024T15:25:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+04-10-2024T15:25:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_02_Login_with_correct_email_password' successfully
+
+04-10-2024T15:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise/a_Logout")): Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+04-10-2024T15:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+04-10-2024T15:25:20 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+04-10-2024T15:25:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-10-2024T15:25:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login")): Object 'Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login' is visible
+
+04-10-2024T15:25:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login' is visible
+
+04-10-2024T15:25:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-10-2024T15:25:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_Login_with_correct_email_password" time="21.876" classname="Test Cases/TC_02_Login_with_correct_email_password" status="PASSED">
+         <system-out><![CDATA[04-10-2024T15:25:23 - [TEST_CASE][PASSED] - Test Cases/TC_02_Login_with_correct_email_password: Test Cases/TC_02_Login_with_correct_email_password
+
+04-10-2024T15:25:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://automationexercise.com/' successfully
+
+04-10-2024T15:25:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-10-2024T15:25:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-10-2024T15:25:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-10-2024T15:25:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-10-2024T15:25:24 - [TEST_STEP][PASSED] - navigateToUrl("https://automationexercise.com/"): Navigate to 'https://automationexercise.com/' successfully
+
+04-10-2024T15:25:28 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully
+
+04-10-2024T15:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise/a_Signup  Login")): Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+04-10-2024T15:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+04-10-2024T15:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email"), "nhantest@katalon.com"): Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+04-10-2024T15:25:34 - [MESSAGE][PASSED] - Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+04-10-2024T15:25:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password"), "VFrE/ihxX88="): Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+04-10-2024T15:25:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+04-10-2024T15:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/button_Login")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+04-10-2024T15:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+04-10-2024T15:25:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Automation Exercise/a_Logout")): Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+04-10-2024T15:25:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-10-2024T15:24:52 - [TEST_SUITE][PASSED] - TS_01: Test Cases/TC_02_Login_with_correct_email_password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

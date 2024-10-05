@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/TC_01_Register_User","testCaseId":"Test Cases/TC_01_Register_User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_02_Login_with_correct_email_password","testCaseId":"Test Cases/TC_02_Login_with_correct_email_password","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_03_Login_with_incorrect_email_password","testCaseId":"Test Cases/TC_03_Login_with_incorrect_email_password","iterationVariableName":""}

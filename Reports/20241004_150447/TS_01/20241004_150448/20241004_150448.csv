@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,Chrome 129.0.0.0,,,04-10-2024 15:04:53,04-10-2024 15:06:12,1m - 18.296s,PASSED
+,,,,,,,
+Test Cases/TC_01_Register_User,Chrome 129.0.0.0,,,04-10-2024 15:04:53,04-10-2024 15:05:39,45.131s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 129.0.0.0,,,04-10-2024 15:04:53,04-10-2024 15:04:58,4.147s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,04-10-2024 15:04:58,04-10-2024 15:04:58,0.759s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 129.0.0.0,,,04-10-2024 15:04:58,04-10-2024 15:05:02,3.503s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise/a_Home""), 0)",Chrome 129.0.0.0,,,04-10-2024 15:05:02,04-10-2024 15:05:03,0.681s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise/a_Signup  Login""))",Chrome 129.0.0.0,,,04-10-2024 15:05:03,04-10-2024 15:05:04,1.478s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/h2_New User Signup""), ""New User Signup!"")",Chrome 129.0.0.0,,,04-10-2024 15:05:04,04-10-2024 15:05:05,0.975s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/input_New User Signup_name""), ""nhan"")",Chrome 129.0.0.0,,,04-10-2024 15:05:05,04-10-2024 15:05:06,0.585s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/input_New User Signup_email""), ""nhan.hoang@katalon.com"")",Chrome 129.0.0.0,,,04-10-2024 15:05:06,04-10-2024 15:05:06,0.529s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/button_Signup""))",Chrome 129.0.0.0,,,04-10-2024 15:05:06,04-10-2024 15:05:08,1.888s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/b_Enter Account Information""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,04-10-2024 15:05:08,04-10-2024 15:05:09,0.551s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input_Mrs_title""))",Chrome 129.0.0.0,,,04-10-2024 15:05:09,04-10-2024 15:05:09,0.246s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__password""), ""VFrE/ihxX88="")",Chrome 129.0.0.0,,,04-10-2024 15:05:09,04-10-2024 15:05:09,0.282s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/select_Day123456789101112131415161718192021_40ab5b""), ""1"", true)",Chrome 129.0.0.0,,,04-10-2024 15:05:09,04-10-2024 15:05:10,0.883s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb""), ""1"", true)",Chrome 129.0.0.0,,,04-10-2024 15:05:10,04-10-2024 15:05:11,0.903s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/select_Year20212020201920182017201620152014_f874ed""), ""2001"", true)",Chrome 129.0.0.0,,,04-10-2024 15:05:11,04-10-2024 15:05:12,1.299s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/label_Sign up for our newsletter""))",Chrome 129.0.0.0,,,04-10-2024 15:05:12,04-10-2024 15:05:13,0.260s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/label_Receive special offers from our partners""))",Chrome 129.0.0.0,,,04-10-2024 15:05:13,04-10-2024 15:05:13,0.252s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__first_name""), ""nhan"")",Chrome 129.0.0.0,,,04-10-2024 15:05:13,04-10-2024 15:05:13,0.515s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__last_name""), ""hoang"")",Chrome 129.0.0.0,,,04-10-2024 15:05:13,04-10-2024 15:05:14,0.530s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input_Company_company""), ""katalon"")",Chrome 129.0.0.0,,,04-10-2024 15:05:14,04-10-2024 15:05:14,0.526s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input_(Street address, P.O. Box, Company na_957d3e""), ""cmt8"")",Chrome 129.0.0.0,,,04-10-2024 15:05:14,04-10-2024 15:05:15,0.518s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input_Address 2_address2""), ""3/2"")",Chrome 129.0.0.0,,,04-10-2024 15:05:15,04-10-2024 15:05:15,0.519s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/select_IndiaUnited StatesCanadaAustraliaIsr_09757b""), ""Canada"", true)",Chrome 129.0.0.0,,,04-10-2024 15:05:15,04-10-2024 15:05:16,0.776s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__state""), ""abc"")",Chrome 129.0.0.0,,,04-10-2024 15:05:16,04-10-2024 15:05:17,0.510s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__city""), ""xyz"")",Chrome 129.0.0.0,,,04-10-2024 15:05:17,04-10-2024 15:05:17,0.491s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__zipcode""), ""12000"")",Chrome 129.0.0.0,,,04-10-2024 15:05:17,04-10-2024 15:05:18,0.520s,PASSED
+"setText(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/input__mobile_number""), ""0912827872"")",Chrome 129.0.0.0,,,04-10-2024 15:05:18,04-10-2024 15:05:18,0.512s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Signup/button_Create Account""))",Chrome 129.0.0.0,,,04-10-2024 15:05:18,04-10-2024 15:05:20,2.080s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/b_Account Created""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,04-10-2024 15:05:20,04-10-2024 15:05:21,1.073s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/a_Continue""))",Chrome 129.0.0.0,,,04-10-2024 15:05:21,04-10-2024 15:05:31,9.600s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise/a_Logout""), 0)",Chrome 129.0.0.0,,,04-10-2024 15:05:31,04-10-2024 15:05:32,0.541s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise/a_Delete Account""))",Chrome 129.0.0.0,,,04-10-2024 15:05:32,04-10-2024 15:05:34,2.045s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/b_Account Deleted""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,04-10-2024 15:05:34,04-10-2024 15:05:35,1.056s,PASSED
+"click(findTestObject(""Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/a_Continue""))",Chrome 129.0.0.0,,,04-10-2024 15:05:35,04-10-2024 15:05:38,3.835s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,04-10-2024 15:05:38,04-10-2024 15:05:39,0.164s,PASSED
+,,,,,,,
+Test Cases/TC_02_Login_with_correct_email_password,Chrome 129.0.0.0,,,04-10-2024 15:05:39,04-10-2024 15:05:59,20.265s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 129.0.0.0,,,04-10-2024 15:05:39,04-10-2024 15:05:42,3.302s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/a_Signup  Login""))",Chrome 129.0.0.0,,,04-10-2024 15:05:42,04-10-2024 15:05:44,2.365s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email""), ""nhantest@katalon.com"")",Chrome 129.0.0.0,,,04-10-2024 15:05:44,04-10-2024 15:05:49,4.362s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""VFrE/ihxX88="")",Chrome 129.0.0.0,,,04-10-2024 15:05:49,04-10-2024 15:05:52,2.946s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 129.0.0.0,,,04-10-2024 15:05:52,04-10-2024 15:05:59,7.212s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise/a_Logout""))",Chrome 129.0.0.0,,,04-10-2024 15:05:59,04-10-2024 15:05:59,0.041s,PASSED
+,,,,,,,
+Test Cases/TC_03_Login_with_incorrect_email_password,Chrome 129.0.0.0,,,04-10-2024 15:05:59,04-10-2024 15:06:12,12.838s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 129.0.0.0,,,04-10-2024 15:05:59,04-10-2024 15:06:02,3.341s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,04-10-2024 15:06:02,04-10-2024 15:06:03,0.772s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 129.0.0.0,,,04-10-2024 15:06:03,04-10-2024 15:06:06,2.532s,PASSED
+"click(findTestObject(""Page_Automation Exercise/a_Signup  Login""))",Chrome 129.0.0.0,,,04-10-2024 15:06:06,04-10-2024 15:06:07,1.821s,PASSED
+"setText(findTestObject(""Page_Automation Exercise - Signup  Login/input_Login to your account_email""), ""nhantest@katalon.com"")",Chrome 129.0.0.0,,,04-10-2024 15:06:07,04-10-2024 15:06:09,1.333s,PASSED
+"setEncryptedText(findTestObject(""Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""Hp7XNMOJkko="")",Chrome 129.0.0.0,,,04-10-2024 15:06:09,04-10-2024 15:06:09,0.281s,PASSED
+"click(findTestObject(""Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 129.0.0.0,,,04-10-2024 15:06:09,04-10-2024 15:06:10,1.454s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""))",Chrome 129.0.0.0,,,04-10-2024 15:06:10,04-10-2024 15:06:11,0.882s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""), ""Your email or password is incorrect!"")",Chrome 129.0.0.0,,,04-10-2024 15:06:11,04-10-2024 15:06:12,0.245s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,04-10-2024 15:06:12,04-10-2024 15:06:12,0.135s,PASSED

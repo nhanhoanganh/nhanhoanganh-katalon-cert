@@ -17,13 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_02_Login_with_correct_email_password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_02_Login with correct email password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Automation Exercise/a_Logout'))
 
 WebUI.waitForPageLoad(3)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

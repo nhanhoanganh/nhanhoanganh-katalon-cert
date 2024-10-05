@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_08_All products and product detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>952acd95-d5fc-4bf5-a992-0c17dd8fd2c2</testCaseGuid>
+</TestCaseEntity>

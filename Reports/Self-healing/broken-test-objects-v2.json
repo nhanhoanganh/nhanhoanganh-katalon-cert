@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Automation_exercise/Page_Automation Exercise - Signup/b_Enter Account Information_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Automation Exercise - Contact Us/div_Success Your details have been submitte_fc584e",
+      "brokenLocator": "//div[@id\u003d\u0027contact-page\u0027]/div[2]/div/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027contact-page\u0027]/div[2]/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Automation Exercise - Contact Us/div_Success Your details have been submitte_fc584e_idRelative.png"
     }
   ]
 }
