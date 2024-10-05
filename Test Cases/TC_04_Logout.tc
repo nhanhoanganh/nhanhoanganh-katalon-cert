@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>9cb519c2-e333-4abb-bfb2-6cad9d5a919c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe3c24a5-6619-4ae1-8e5e-6aeda887a287</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>fe3c24a5-6619-4ae1-8e5e-6aeda887a287</id>
+      <masked>false</masked>
+      <name>wait_time</name>
+   </variable>
 </TestCaseEntity>

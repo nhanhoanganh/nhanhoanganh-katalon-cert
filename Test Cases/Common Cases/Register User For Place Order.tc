@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register User For Place Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>298ba83e-7755-4d06-afb0-0df17c6eb8e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>942acab9-95a0-4e2d-bffa-4d9c2cdf6009</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44afc7f6-0bd1-4c7a-ad00-02200c948245</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0064fc90-b2c2-4be0-94a6-0664f7c3bfab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'nhan2'</defaultValue>
+      <description></description>
+      <id>942acab9-95a0-4e2d-bffa-4d9c2cdf6009</id>
+      <masked>false</masked>
+      <name>input_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'nhantest9@katalon.com'</defaultValue>
+      <description></description>
+      <id>44afc7f6-0bd1-4c7a-ad00-02200c948245</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'nhan123'</defaultValue>
+      <description></description>
+      <id>0064fc90-b2c2-4be0-94a6-0664f7c3bfab</id>
+      <masked>false</masked>
+      <name>input_password</name>
+   </variable>
+</TestCaseEntity>

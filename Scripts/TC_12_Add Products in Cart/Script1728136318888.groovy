@@ -39,5 +39,3 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Automation Exe
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Automation Exercise - Checkout/a_Men Tshirt'), 0)
 
-WebUI.closeBrowser()
-

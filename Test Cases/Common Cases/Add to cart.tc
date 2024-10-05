@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_01_Register User For Login</name>
+   <name>Add to cart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>298ba83e-7755-4d06-afb0-0df17c6eb8e7</testCaseGuid>
+   <testCaseGuid>170a01fd-bea9-466f-a91b-457e649ceb3f</testCaseGuid>
 </TestCaseEntity>

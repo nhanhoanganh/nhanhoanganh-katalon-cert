@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_04_Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe3c24a5-6619-4ae1-8e5e-6aeda887a287</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>897688f8-af55-4b03-8b08-e8de0fd62936</guid>
@@ -24,5 +30,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_02_Login with correct email password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54c5f49b-92c4-489f-b265-928322bb4ff1</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -29,10 +29,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/Automation_exercise/Pa
     'New User Signup!')
 
 WebUI.setText(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/input_New User Signup_name'), 
-    'nhan2')
+    'nhan123')
 
 WebUI.setText(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/input_New User Signup_email'), 
-    'nhantest@katalon.com')
+    'nhantest4566@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Signup  Login/button_Signup'))
 
@@ -91,10 +91,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_exercise
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/a_Continue'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise/a_Logout'), 0)
-
-WebUI.click(findTestObject('Object Repository/Automation_exercise/Page_Automation Exercise - Account Created/a_Continue'))
-
-WebUI.closeBrowser()
 

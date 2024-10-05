@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Page_Automation Exercise/a_Signup  Login'))
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup'), 
     'New User Signup!')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'), 'nhan anh')
+WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'), name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'), 
     'nhantest@katalon.com')

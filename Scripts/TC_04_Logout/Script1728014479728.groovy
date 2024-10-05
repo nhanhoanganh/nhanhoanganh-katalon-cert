@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('TC_02_Login with correct email password'), [:],
 
 WebUI.click(findTestObject('Page_Automation Exercise/a_Logout'))
 
-WebUI.waitForPageLoad(3)
+WebUI.waitForPageLoad(wait_time)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login'), 
     FailureHandling.STOP_ON_FAILURE)

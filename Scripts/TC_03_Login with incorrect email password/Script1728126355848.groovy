@@ -23,10 +23,9 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 
 WebUI.click(findTestObject('Page_Automation Exercise/a_Signup  Login'))
 
-WebUI.setText(findTestObject('Page_Automation Exercise - Signup  Login/input_Login to your account_email'), 'nhantest@katalon.com')
+WebUI.setText(findTestObject('Page_Automation Exercise - Signup  Login/input_Login to your account_email'), email)
 
-WebUI.setEncryptedText(findTestObject('Page_Automation Exercise - Signup  Login/input_Login to your account_password'), 
-    'Hp7XNMOJkko=')
+WebUI.setText(findTestObject('Page_Automation Exercise - Signup  Login/input_Login to your account_password'), password)
 
 WebUI.click(findTestObject('Page_Automation Exercise - Signup  Login/button_Login'))
 

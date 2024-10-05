@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8121ab3e-c35d-4d47-86ca-04038a7cdf44</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc206dca-864a-4381-b8b3-f79d6561b1b1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'nhan anh'</defaultValue>
+      <description></description>
+      <id>dc206dca-864a-4381-b8b3-f79d6561b1b1</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
 </TestCaseEntity>

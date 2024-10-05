@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a72d588e-46d6-4cfc-bd11-8526af85c265</webElementGuid>
+      <webElementGuid>a28620b9-0cbc-441a-83cf-732135ad048c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/view_cart</value>
-      <webElementGuid>9f617ca6-c501-488c-bc4c-436844f2447e</webElementGuid>
+      <webElementGuid>c117ef57-9377-4f5e-a6ef-1a759d818763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Cart</value>
-      <webElementGuid>6166e9a3-ce04-468a-a8ef-5484cb6d6cdc</webElementGuid>
+      <webElementGuid>b9e928db-f830-4bdb-bd4b-c8e6d12125ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[3]/a[1]</value>
-      <webElementGuid>50547c87-519b-4f2f-bc91-be7757412e4d</webElementGuid>
+      <webElementGuid>9bb2d817-f30a-4e80-8428-af5746372c27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[3]/a</value>
-      <webElementGuid>246e66df-8d0a-41fc-ab25-43a8fef44894</webElementGuid>
+      <webElementGuid>d7d120de-ef54-4796-8ec8-cdce4688cab6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cart')]</value>
-      <webElementGuid>04c31a90-3206-4979-bbef-539c54e19945</webElementGuid>
+      <webElementGuid>c76c2a79-c875-4ddb-8733-99d651e3467a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,23 +77,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::a[1]</value>
-      <webElementGuid>807aab71-94f4-4327-84ca-fd94fd6dd65e</webElementGuid>
+      <webElementGuid>294c0185-611b-4152-8386-e8af6c40f208</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signup / Login'])[1]/preceding::a[1]</value>
-      <webElementGuid>a1a41d3d-83d4-4e90-b0b5-b858677436d7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[1]</value>
+      <webElementGuid>cebb2008-2d4c-41a8-bfea-f5c0c87351f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Cases'])[1]/preceding::a[2]</value>
-      <webElementGuid>5186ce01-1482-4471-9a93-9bab2eafc4fe</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Account'])[1]/preceding::a[2]</value>
+      <webElementGuid>deb3686b-2c02-4f25-b927-55cf4b0cdd51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cart']/parent::*</value>
-      <webElementGuid>bc6a09a5-b462-45bc-817f-6eb880484ea5</webElementGuid>
+      <webElementGuid>61d62f16-8fa0-442c-aee3-993ce0bbba6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/view_cart')]</value>
-      <webElementGuid>e2197ce5-f0f1-458c-b66f-4ba7ad9ffca9</webElementGuid>
+      <webElementGuid>1e3a35dd-af48-45fb-aaa5-e7d90b0f020d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>83a607b9-4a73-484b-a7d7-71463113d370</webElementGuid>
+      <webElementGuid>5fca1130-df88-446f-9762-697aa4e92b3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/view_cart' and (text() = ' Cart' or . = ' Cart')]</value>
-      <webElementGuid>aa06c4e4-92db-4037-9b7e-8348f1ed6eff</webElementGuid>
+      <webElementGuid>74d27e18-756b-40c0-b4dd-333f8d295faf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

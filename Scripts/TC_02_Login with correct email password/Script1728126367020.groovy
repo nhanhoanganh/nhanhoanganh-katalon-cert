@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Signup  Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'), 
-    'nhantest@katalon.com')
+    email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'), 
     'VFrE/ihxX88=')
