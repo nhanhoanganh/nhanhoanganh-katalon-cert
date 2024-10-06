@@ -15,4 +15,4 @@ jobs:
       with:
           version: '9.7.2'
           projectPath: '${{ github.workspace }}'
-          args: './katalonc -noSplash -runMode=console -projectPath="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/nhanhoanganh-katalon-cert.prj" -retry=0 -testSuitePath="Test Suites/TS_03" -browserType="Chrome" -executionProfile="default" -apiKey="37bb3e8b-0142-48db-9706-225fec0f35fb" -orgID=1655112 -testOpsProjectId=1631721 --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -runMode=console -retry=0 -testSuitePath="Test Suites/TS_03" -browserType="Chrome" -executionProfile="default" -apiKey=${{ secrets.katalon_api_key}} -orgID=1655112 -testOpsProjectId=1631721 --config -webui.autoUpdateDrivers=true'
