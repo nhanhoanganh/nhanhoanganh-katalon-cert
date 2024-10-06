@@ -15,4 +15,4 @@ jobs:
       with:
           version: '9.7.2'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -runMode=console -retry=0 -testSuitePath="Test Suites/TS_03" -browserType="Chrome" -executionProfile="default" -apiKey=${{ secrets.katalon_api_key}} -orgID=1655112 -testOpsProjectId=1631721 --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -runMode=console -retry=0 -testSuitePath="Test Suites/TS_03" -browserType="Chrome" -executionProfile="default" -apiKey=${{secrets.KATALON_API_KEY}} -orgID=1655112 -testOpsProjectId=1631721 --config -webui.autoUpdateDrivers=true'
