@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('tcs in other web/TC1_navigate to practice automation page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Automation Practice Site/span_0 items'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Products  Automation Practice Site/nav_HomeShop'), 0)
+
+WebUI.closeBrowser()
+

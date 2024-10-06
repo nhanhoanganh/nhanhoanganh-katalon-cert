@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_08,Chrome 129.0.0.0,,,06-10-2024 00:25:44,06-10-2024 00:26:04,20.677s,PASSED
+,,,,,,,
+Test Cases/TC_08_All products and product detail page,Chrome 129.0.0.0,,,06-10-2024 00:25:44,06-10-2024 00:26:04,20.612s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 00:25:44,06-10-2024 00:25:45,1.487s,PASSED
+"navigateToUrl(""https://www.automationexercise.com/"")",Chrome 129.0.0.0,,,06-10-2024 00:25:45,06-10-2024 00:25:51,5.605s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/a_Products""))",Chrome 129.0.0.0,,,06-10-2024 00:25:51,06-10-2024 00:25:57,5.931s,PASSED
+url = getUrl(),Chrome 129.0.0.0,,,06-10-2024 00:25:57,06-10-2024 00:25:57,0.021s,PASSED
+"verifyEqual(url, ""https://www.automationexercise.com/products"")",Chrome 129.0.0.0,,,06-10-2024 00:25:57,06-10-2024 00:25:57,0.017s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - All Products/a_View Product""))",Chrome 129.0.0.0,,,06-10-2024 00:25:57,06-10-2024 00:25:59,2.638s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top""), 0)",Chrome 129.0.0.0,,,06-10-2024 00:25:59,06-10-2024 00:26:02,2.644s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/p_Category Women  Tops""), 0)",Chrome 129.0.0.0,,,06-10-2024 00:26:02,06-10-2024 00:26:04,2.002s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,06-10-2024 00:26:04,06-10-2024 00:26:04,0.155s,PASSED

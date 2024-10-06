@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,Chrome 129.0.0.0,,,06-10-2024 00:32:32,06-10-2024 00:34:08,1m - 36.211s,PASSED
+,,,,,,,
+Test Cases/TC_04_Logout,Chrome 129.0.0.0,,,06-10-2024 00:32:32,06-10-2024 00:33:25,53.157s,PASSED
+"callTestCase(findTestCase(""TC_02_Login with correct email password""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,06-10-2024 00:32:33,06-10-2024 00:33:19,46.182s,PASSED
+"click(findTestObject(""Page_Automation Exercise/a_Logout""))",Chrome 129.0.0.0,,,06-10-2024 00:33:19,06-10-2024 00:33:22,3.510s,PASSED
+waitForPageLoad(wait_time),Chrome 129.0.0.0,,,06-10-2024 00:33:22,06-10-2024 00:33:23,0.167s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,06-10-2024 00:33:23,06-10-2024 00:33:25,2.703s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,06-10-2024 00:33:25,06-10-2024 00:33:25,0.142s,PASSED
+,,,,,,,
+Test Cases/TC_02_Login with correct email password,Chrome 129.0.0.0,,,06-10-2024 00:33:25,06-10-2024 00:34:08,42.755s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 00:33:25,06-10-2024 00:33:30,4.772s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 129.0.0.0,,,06-10-2024 00:33:30,06-10-2024 00:33:44,13.692s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/a_Signup  Login""))",Chrome 129.0.0.0,,,06-10-2024 00:33:44,06-10-2024 00:33:51,6.760s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email""), email)",Chrome 129.0.0.0,,,06-10-2024 00:33:51,06-10-2024 00:33:55,4.075s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""VFrE/ihxX88="")",Chrome 129.0.0.0,,,06-10-2024 00:33:55,06-10-2024 00:33:57,2.670s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 129.0.0.0,,,06-10-2024 00:33:57,06-10-2024 00:34:07,9.890s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise/a_Logout""))",Chrome 129.0.0.0,,,06-10-2024 00:34:07,06-10-2024 00:34:08,0.875s,PASSED
