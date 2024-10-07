@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_03" time="47.748" tests="1" failures="0" errors="0">
+   <testsuite name="TS_03" tests="1" failures="0" errors="0" time="47.748" skipped="0" timestamp="07-10-2024T15:50:26" hostname="nhan.hoang - 10.10.32.90" id="Test Suites/TS_03">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241007_155009/TS_03/20241007_155019"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241007_155009/TS_03/20241007_155019/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - 10.10.32.90"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="10.10.32.90"/>
+         <property name="sessionId" value="7e560f84210916d895e8540824afe5e3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_03_Login with incorrect email password" time="47.529" classname="Test Cases/TC_03_Login with incorrect email password" status="PASSED">
+         <system-out><![CDATA[07-10-2024T15:50:26 - [TEST_CASE][PASSED] - Test Cases/TC_03_Login with incorrect email password: Test Cases/TC_03_Login with incorrect email password
+
+07-10-2024T15:50:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-10-2024T15:50:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-10-2024T15:50:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-10-2024T15:50:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-10-2024T15:50:36 - [TEST_STEP][PASSED] - navigateToUrl("https://automationexercise.com/"): Navigate to 'https://automationexercise.com/' successfully
+
+07-10-2024T15:50:45 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully
+
+07-10-2024T15:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise/a_Signup  Login")): Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+07-10-2024T15:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+07-10-2024T15:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Automation Exercise - Signup  Login/input_Login to your account_email"), email): Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+07-10-2024T15:51:00 - [MESSAGE][PASSED] - Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+07-10-2024T15:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Automation Exercise - Signup  Login/input_Login to your account_password"), password): Text 'wrongpass' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+07-10-2024T15:51:05 - [MESSAGE][PASSED] - Text 'wrongpass' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+07-10-2024T15:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise - Signup  Login/button_Login")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+07-10-2024T15:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+07-10-2024T15:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' is clicked on
+
+07-10-2024T15:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' is clicked on
+
+07-10-2024T15:51:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect"), "Your email or password is incorrect!"): Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' are matched.
+
+07-10-2024T15:51:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' are matched.
+
+07-10-2024T15:51:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-10-2024T15:51:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-10-2024T15:50:26 - [TEST_SUITE][PASSED] - TS_03: Test Cases/TC_03_Login with incorrect email password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

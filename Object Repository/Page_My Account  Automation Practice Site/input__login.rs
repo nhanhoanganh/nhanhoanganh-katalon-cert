@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Anti-spam_register</name>
+   <name>input__login</name>
    <tag></tag>
-   <elementGuidId>131fbb69-e00a-4d8d-bbcd-674b52f6cba8</elementGuidId>
+   <elementGuidId>7588e56c-b0f8-4702-9ffe-12c7f6fb637c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;register&quot;]</value>
+         <value>input[name=&quot;login&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='register']</value>
+         <value>//input[@name='login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Register&quot;i]</value>
+         <value>internal:role=button[name=&quot;Login&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>23351fe3-4f21-4418-b8e1-f53f9a1ed8b7</webElementGuid>
+      <webElementGuid>64021a00-ca5f-47cd-903f-d94c2852b736</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>cd20f8b9-7450-433a-a3da-63327f573eea</webElementGuid>
+      <webElementGuid>eee43d97-4923-4065-b431-47b4653d46ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +45,62 @@
       <name>class</name>
       <type>Main</type>
       <value>woocommerce-Button button</value>
-      <webElementGuid>6bb26975-e276-4a29-ac86-79fd0008b2a2</webElementGuid>
+      <webElementGuid>502a994a-7610-4b25-a528-19dbc5d3300d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>register</value>
-      <webElementGuid>76b96d16-7a8c-4298-b4bf-ef4f53b576f6</webElementGuid>
+      <value>login</value>
+      <webElementGuid>3a20ac02-4fad-4d43-a2e5-64b96e959460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Register</value>
-      <webElementGuid>eaddca69-d4b2-4cf6-98d7-91820ae20b7b</webElementGuid>
+      <value>Login</value>
+      <webElementGuid>446ae5fb-fc2b-4636-816d-8baf1c5a2d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;customer_login&quot;)/div[@class=&quot;u-column2 col-2&quot;]/form[@class=&quot;register&quot;]/p[@class=&quot;woocomerce-FormRow form-row&quot;]/input[@class=&quot;woocommerce-Button button&quot;]</value>
-      <webElementGuid>b76e3e54-e3c7-4a27-b61c-829611286189</webElementGuid>
+      <value>id(&quot;customer_login&quot;)/div[@class=&quot;u-column1 col-1&quot;]/form[@class=&quot;login&quot;]/p[@class=&quot;form-row&quot;]/input[@class=&quot;woocommerce-Button button&quot;]</value>
+      <webElementGuid>9d48919e-af30-4c52-9e21-13e1163d9162</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='register']</value>
-      <webElementGuid>a179065a-03a8-45e1-b6ed-876ef3933f97</webElementGuid>
+      <value>//input[@name='login']</value>
+      <webElementGuid>a37b785d-b6ab-4aff-a124-1cfa12fbcd60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='customer_login']/div[2]/form/p[3]/input[3]</value>
-      <webElementGuid>4f93e96a-e9cf-4da1-98b1-008cb0c5c07b</webElementGuid>
+      <value>//div[@id='customer_login']/div/form/p[3]/input[3]</value>
+      <webElementGuid>e8f65a5d-4db7-4591-a5af-bb9906071dd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/form/p[3]/input[3]</value>
-      <webElementGuid>84c12d68-11fd-48b4-930d-2918c021c366</webElementGuid>
+      <value>//input[3]</value>
+      <webElementGuid>b30f375b-603f-4a7d-badf-906160ad3cfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @name = 'register']</value>
-      <webElementGuid>93d26f7a-0153-4cc9-a1f4-d124aff0260d</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'login']</value>
+      <webElementGuid>6eac1cbd-9d83-4ae5-823c-039c2d41365a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

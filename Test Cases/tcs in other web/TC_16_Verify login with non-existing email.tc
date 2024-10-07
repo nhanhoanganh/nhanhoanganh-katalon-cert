@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_16_Verify login with non-existing email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b5b40f3-ca37-4949-87bb-c5800f51dfc7</testCaseGuid>
+</TestCaseEntity>

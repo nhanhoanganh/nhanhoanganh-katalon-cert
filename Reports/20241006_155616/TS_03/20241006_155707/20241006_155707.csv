@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_03,Chrome 129.0.0.0,,,06-10-2024 15:57:12,06-10-2024 15:57:22,10.518s,PASSED
+,,,,,,,
+Test Cases/TC_03_Login with incorrect email password,Chrome 129.0.0.0,,,06-10-2024 15:57:12,06-10-2024 15:57:22,10.460s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 15:57:12,06-10-2024 15:57:14,1.421s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 129.0.0.0,,,06-10-2024 15:57:14,06-10-2024 15:57:16,2.481s,PASSED
+"click(findTestObject(""Page_Automation Exercise/a_Signup  Login""))",Chrome 129.0.0.0,,,06-10-2024 15:57:16,06-10-2024 15:57:18,2.106s,PASSED
+"setText(findTestObject(""Page_Automation Exercise - Signup  Login/input_Login to your account_email""), email)",Chrome 129.0.0.0,,,06-10-2024 15:57:18,06-10-2024 15:57:19,1.260s,PASSED
+"setText(findTestObject(""Page_Automation Exercise - Signup  Login/input_Login to your account_password""), password)",Chrome 129.0.0.0,,,06-10-2024 15:57:19,06-10-2024 15:57:20,0.524s,PASSED
+"click(findTestObject(""Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 129.0.0.0,,,06-10-2024 15:57:20,06-10-2024 15:57:21,1.081s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""))",Chrome 129.0.0.0,,,06-10-2024 15:57:21,06-10-2024 15:57:22,0.553s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""), ""Your email or password is incorrect!"")",Chrome 129.0.0.0,,,06-10-2024 15:57:22,06-10-2024 15:57:22,0.783s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,06-10-2024 15:57:22,06-10-2024 15:57:22,0.131s,PASSED

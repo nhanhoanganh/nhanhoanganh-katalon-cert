@@ -17,20 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('tcs in other web/TC1_navigate to practice automation page'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Automation Practice Site/a_My Account'))
-
-WebUI.navigateToUrl('https://practice.automationtesting.in/my-account/')
-
-WebUI.setText(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input__email'), 'nhan2@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input__password'), 'uOtOAM40jadGz23zJm410Q==')
-
-WebUI.click(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input_Anti-spam_register'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Account  Automation Practice Site/li_Error An account is already registered w_b8b5be'), 
-    0)
-
-WebUI.closeBrowser()
-

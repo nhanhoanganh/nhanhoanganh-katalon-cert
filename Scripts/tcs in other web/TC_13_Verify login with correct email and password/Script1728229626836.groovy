@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('tcs in other web/TC1_navigate to practice automation page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.switchToWindowTitle('Automation Practice Site')
+
 WebUI.click(findTestObject('Page_Automation Practice Site/a_My Account'))
 
-WebUI.navigateToUrl('https://practice.automationtesting.in/my-account/')
+WebUI.setText(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input__username_login'), 'nhan2@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input__email'), 'nhan2@gmail.com')
+WebUI.setText(findTestObject('Page_My Account  Automation Practice Site/input__password_login'), 'nhanhoang12')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input__password'), 'uOtOAM40jadGz23zJm410Q==')
+WebUI.click(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input__login'))
 
-WebUI.click(findTestObject('Object Repository/Page_My Account  Automation Practice Site/input_Anti-spam_register'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Account  Automation Practice Site/li_Error An account is already registered w_b8b5be'), 
+WebUI.verifyElementPresent(findTestObject('Page_My Account  Automation Practice Site/p_Hello nhan2 (not nhan2 Sign out)'), 
     0)
 
 WebUI.closeBrowser()
