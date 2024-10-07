@@ -9,6 +9,7 @@ pipeline {
             }
         }
     }
+    
     post {
         always {
             archiveArtifacts artifacts: 'Reports/**/*.*', fingerprint: true
