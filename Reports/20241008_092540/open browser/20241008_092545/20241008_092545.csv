@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+open browser,Chrome 129.0.0.0,,,08-10-2024 09:26:26,08-10-2024 09:26:29,2.334s,PASSED
+,,,,,,,
+Test Cases/Common Cases/open browser,Chrome 129.0.0.0,,,08-10-2024 09:26:26,08-10-2024 09:26:29,2.268s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,08-10-2024 09:26:26,08-10-2024 09:26:27,1.096s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 129.0.0.0,,,08-10-2024 09:26:27,08-10-2024 09:26:29,1.081s,PASSED

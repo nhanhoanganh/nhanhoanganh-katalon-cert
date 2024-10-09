@@ -12,29 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>e6bfa26f-407c-48d0-8dee-49f280116cf7</testSuiteGuid>
    <testCaseLink>
-      <guid>3df972f8-4f95-4455-89f4-cdd1a1063058</guid>
+      <guid>bfb11638-4fa5-4442-883c-a060069d227c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_04_Logout</testCaseId>
+      <testCaseId>Test Cases/TC_10_Verify Subscription in home page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fe3c24a5-6619-4ae1-8e5e-6aeda887a287</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>897688f8-af55-4b03-8b08-e8de0fd62936</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_02_Login with correct email password</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>54c5f49b-92c4-489f-b265-928322bb4ff1</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

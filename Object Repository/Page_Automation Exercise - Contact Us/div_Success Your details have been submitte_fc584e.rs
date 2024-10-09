@@ -6,12 +6,12 @@
    <elementGuidId>7436e931-c777-40b8-bd0b-22d6b09e7c2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='contact-page']/div[2]/div/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.status.alert.alert-success</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contact-page']/div[2]/div/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

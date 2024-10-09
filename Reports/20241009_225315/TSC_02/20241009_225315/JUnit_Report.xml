@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_02" time="94.676" tests="1" failures="0" errors="0">
+   <testsuite name="TS_03" tests="1" failures="0" errors="0" time="84.85" skipped="0" timestamp="09-10-2024T22:53:22" hostname="nhan.hoang - 192.168.2.48" id="Test Suites/TS_03">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241009_225315/TS_03/20241009_225316"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241009_225315/TS_03/20241009_225316/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - 192.168.2.48"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;MAC&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;129.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;3214dddc-32b8-4945-9419-b062e73c9bbb&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;apiKey&quot;: &quot;37bb3e8b-0142-48db-9706-225fec0f35fb&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;320bea14-c787-452c-ba81-b61032b25d03&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;3214dddc-32b8-4945-9419-b062e73c9bbb&quot;,&#xa;    &quot;userId&quot;: 1591767,&#xa;    &quot;organizationId&quot;: &quot;1655112&quot;,&#xa;    &quot;executionId&quot;: &quot;154151ee-1df6-4ce6-8e93-ad8bf87a2bc1&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;group&quot;: &quot;eb63f707-4007-4e78-8f17-41d2d74fd0fc&quot;,&#xa;    &quot;usingTunnel&quot;: true&#xa;  },&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;129.0.6668.71 (755228feba24b744c1ae9ffc68368c7a0ccb72b9-refs/branch-heads/6668@{#1421})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;/var/folders/gn/jmnpc2rj0_q25h07_90b_wwh0000gp/T/.org.chromium.Chromium.Wav1Rm&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;3214dddc-32b8-4945-9419-b062e73c9bbb&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.48"/>
+         <property name="sessionId" value="e451a7f3c3e7216cdc0d69d3d7e5e179"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_03_Login with incorrect email password" time="84.78" classname="Test Cases/TC_03_Login with incorrect email password" status="PASSED">
+         <system-out><![CDATA[09-10-2024T22:53:23 - [TEST_CASE][PASSED] - Test Cases/TC_03_Login with incorrect email password: Test Cases/TC_03_Login with incorrect email password
+
+09-10-2024T22:53:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2024T22:53:23 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+09-10-2024T22:53:23 - [MESSAGE][INFO] - User set preference: ['browserVersion', '129']
+
+09-10-2024T22:53:23 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+09-10-2024T22:53:23 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1655112, usingTunnel=true}']
+
+09-10-2024T22:53:23 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+09-10-2024T22:53:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2024T22:54:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2024T22:54:10 - [TEST_STEP][PASSED] - navigateToUrl("https://automationexercise.com/"): Navigate to 'https://automationexercise.com/' successfully
+
+09-10-2024T22:54:21 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully
+
+09-10-2024T22:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise/a_Signup  Login")): Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+09-10-2024T22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+09-10-2024T22:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Automation Exercise - Signup  Login/input_Login to your account_email"), email): Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+09-10-2024T22:54:34 - [MESSAGE][PASSED] - Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+09-10-2024T22:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Automation Exercise - Signup  Login/input_Login to your account_password"), password): Text 'wrongpass' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+09-10-2024T22:54:38 - [MESSAGE][PASSED] - Text 'wrongpass' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+09-10-2024T22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise - Signup  Login/button_Login")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+09-10-2024T22:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+09-10-2024T22:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' is clicked on
+
+09-10-2024T22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' is clicked on
+
+09-10-2024T22:54:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect"), "Your email or password is incorrect!"): Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' are matched.
+
+09-10-2024T22:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' are matched.
+
+09-10-2024T22:54:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-10-2024T22:54:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-10-2024T22:53:22 - [TEST_SUITE][PASSED] - TS_03: Test Cases/TC_03_Login with incorrect email password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

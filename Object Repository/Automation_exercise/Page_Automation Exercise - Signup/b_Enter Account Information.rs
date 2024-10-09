@@ -4,8 +4,14 @@
    <name>b_Enter Account Information</name>
    <tag></tag>
    <elementGuidId>e570505e-d41d-4bf4-8c99-d3af71d3e0ee</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Enter Account Information' or . = 'Enter Account Information')]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>b</value>
@@ -14,16 +20,8 @@
          <key>XPATH</key>
          <value>//section[@id='form']/div/div/div/div/h2/b</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Enter Account Information' or . = 'Enter Account Information')]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>

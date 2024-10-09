@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_02,TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:28:46,09-10-2024 17:31:00,2m - 13.267s,PASSED
+,,,,,,,
+Test Cases/test,TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:30:30,09-10-2024 17:31:00,29.256s,PASSED
+"openBrowser("""")",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:30:30,09-10-2024 17:30:56,25.901s,PASSED
+"navigateToUrl(""https://katalon-test.s3.amazonaws.com/aut/html/alert.html"")",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:30:56,09-10-2024 17:30:57,0.607s,PASSED
+driver = getWebDriver(),TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:30:57,09-10-2024 17:30:57,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/button_Click to show alert""))",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:30:57,09-10-2024 17:30:58,1.561s,PASSED
+alert().accept(),TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:30:58,09-10-2024 17:31:00,1.173s,PASSED

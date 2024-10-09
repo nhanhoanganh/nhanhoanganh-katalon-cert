@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_03,,,,2024-10-08 07:41:22,2024-10-08 07:41:28,5.075s,FAILED
+,,,,,,,
+Test Cases/TC_03_Login with incorrect email password,,,,2024-10-08 07:41:23,2024-10-08 07:41:28,4.634s,FAILED
+"openBrowser("""")",,,,2024-10-08 07:41:23,2024-10-08 07:41:28,4.274s,FAILED

@@ -26,5 +26,3 @@ WebUI.waitForPageLoad(wait_time)
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
-

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_19_turn on smart locator</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbd59fae-ab77-40d1-b689-8bf22252b02d</testCaseGuid>
+</TestCaseEntity>

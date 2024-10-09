@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="open browser" time="5.324" tests="1" failures="0" errors="0">
+   <testsuite name="open browser" tests="1" failures="0" errors="0" time="5.324" skipped="0" timestamp="08-10-2024T09:25:52" hostname="nhan.hoang - localhost" id="Test Suites/open browser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241008_092540/open browser/20241008_092541"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241008_092540/open browser/20241008_092541/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="082a0d872075e5f3dedd22d8e5244a03"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Common Cases/open browser" time="5.271" classname="Test Cases/Common Cases/open browser" status="PASSED">
+         <system-out><![CDATA[08-10-2024T09:25:52 - [TEST_CASE][PASSED] - Test Cases/Common Cases/open browser: Test Cases/Common Cases/open browser
+
+08-10-2024T09:25:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-10-2024T09:25:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-10-2024T09:25:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-10-2024T09:25:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-10-2024T09:25:54 - [TEST_STEP][PASSED] - navigateToUrl("https://automationexercise.com/"): Navigate to 'https://automationexercise.com/' successfully
+
+08-10-2024T09:25:57 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-10-2024T09:25:52 - [TEST_SUITE][PASSED] - open browser: Test Cases/Common Cases/open browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

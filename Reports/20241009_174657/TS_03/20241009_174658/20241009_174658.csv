@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_03,TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:47:04,09-10-2024 17:49:45,2m - 41.002s,PASSED
+,,,,,,,
+Test Cases/TC_03_Login with incorrect email password,TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:47:04,09-10-2024 17:49:45,2m - 40.940s,PASSED
+"openBrowser("""")",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:47:04,09-10-2024 17:49:22,2m - 17.818s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:22,09-10-2024 17:49:25,2.526s,PASSED
+"click(findTestObject(""Page_Automation Exercise/a_Signup  Login""))",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:25,09-10-2024 17:49:28,2.955s,PASSED
+"setText(findTestObject(""Page_Automation Exercise - Signup  Login/input_Login to your account_email""), email)",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:28,09-10-2024 17:49:33,5.535s,PASSED
+"setText(findTestObject(""Page_Automation Exercise - Signup  Login/input_Login to your account_password""), password)",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:33,09-10-2024 17:49:37,3.741s,PASSED
+"click(findTestObject(""Page_Automation Exercise - Signup  Login/button_Login""))",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:37,09-10-2024 17:49:40,3.061s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""))",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:40,09-10-2024 17:49:42,2.163s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""), ""Your email or password is incorrect!"")",TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:42,09-10-2024 17:49:44,1.661s,PASSED
+closeBrowser(),TestCloud - macOS - Chrome 129.0.0.0,,,09-10-2024 17:49:44,09-10-2024 17:49:45,1.417s,PASSED

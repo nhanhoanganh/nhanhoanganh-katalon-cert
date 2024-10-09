@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_02" time="133.267" tests="1" failures="0" errors="0">
+   <testsuite name="TS_02" tests="1" failures="0" errors="0" time="133.267" skipped="0" timestamp="09-10-2024T17:28:46" hostname="nhan.hoang - 10.10.32.90" id="Test Suites/TS_02">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241009_172841/TS_02/20241009_172841"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241009_172841/TS_02/20241009_172841/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - 10.10.32.90"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;MAC&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;129.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;c835d278-dd6a-4a31-b832-5a3c65d4a983&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;executionSessionId&quot;: &quot;c835d278-dd6a-4a31-b832-5a3c65d4a983&quot;,&#xa;    &quot;userId&quot;: 1591767,&#xa;    &quot;organizationId&quot;: &quot;1655112&quot;,&#xa;    &quot;executionId&quot;: &quot;68379e42-9490-4853-825a-0d48fcb39e34&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;129.0.6668.71 (755228feba24b744c1ae9ffc68368c7a0ccb72b9-refs/branch-heads/6668@{#1421})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;/var/folders/1p/fd1h72493vl44z2xhcbgymqr0000gp/T/.org.chromium.Chromium.712Ps0&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;c835d278-dd6a-4a31-b832-5a3c65d4a983&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="10.10.32.90"/>
+         <property name="sessionId" value="e1683b23710786ddc96794e9f07c6efb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/test" time="29.256" classname="Test Cases/test" status="PASSED">
+         <system-out><![CDATA[09-10-2024T17:30:30 - [TEST_CASE][PASSED] - Test Cases/test: Test Cases/test
+
+09-10-2024T17:30:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2024T17:30:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-10-2024T17:30:31 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+09-10-2024T17:30:31 - [MESSAGE][INFO] - User set preference: ['browserVersion', '129']
+
+09-10-2024T17:30:31 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+09-10-2024T17:30:31 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1655112, usingTunnel=false}']
+
+09-10-2024T17:30:31 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+09-10-2024T17:30:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2024T17:30:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2024T17:30:56 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-test.s3.amazonaws.com/aut/html/alert.html"): Navigate to 'https://katalon-test.s3.amazonaws.com/aut/html/alert.html' successfully
+
+09-10-2024T17:30:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-test.s3.amazonaws.com/aut/html/alert.html' successfully
+
+09-10-2024T17:30:57 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+09-10-2024T17:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/button_Click to show alert")): Object: 'Object Repository/Page_Demo AUT/button_Click to show alert' is clicked on
+
+09-10-2024T17:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/button_Click to show alert' is clicked on
+
+09-10-2024T17:30:58 - [TEST_STEP][PASSED] - alert().accept(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-10-2024T17:28:46 - [TEST_SUITE][ERROR] - TS_02: Test Cases/test FAILED.
+Reason:
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Nhans-MacBook-Air.local', ip: 'fe80:0:0:0:e2:daaa:82e:ae55%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {LT:Options: {build: f796d6fd-44af-4a77-b90c-134..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.71 (755228feba24..., userDataDir: /var/folders/sz/zpwn6l2s0tq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: f516b5a5-de09-4594-ae8e-27a..., executionSessionId: f796d6fd-44af-4a77-b90c-134..., group: null, organizationId: 1655112, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1591767, usingTunnel: false}, kt:requestId: f796d6fd-44af-4a77-b90c-134..., kt:rid: f796d6fd-44af-4a77-b90c-134..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b37dad3ef719c1fcf1296e2a795b35ba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:735)
+	at test.run(test:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728469721604.run(TempTestSuite1728469721604.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[09-10-2024T17:28:46 - [TEST_SUITE][ERROR] - TS_02: Test Cases/test FAILED.
+Reason:
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Nhans-MacBook-Air.local', ip: 'fe80:0:0:0:e2:daaa:82e:ae55%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {LT:Options: {build: f796d6fd-44af-4a77-b90c-134..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.71 (755228feba24..., userDataDir: /var/folders/sz/zpwn6l2s0tq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: f516b5a5-de09-4594-ae8e-27a..., executionSessionId: f796d6fd-44af-4a77-b90c-134..., group: null, organizationId: 1655112, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1591767, usingTunnel: false}, kt:requestId: f796d6fd-44af-4a77-b90c-134..., kt:rid: f796d6fd-44af-4a77-b90c-134..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b37dad3ef719c1fcf1296e2a795b35ba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:735)
+	at test.run(test:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728469721604.run(TempTestSuite1728469721604.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -9,10 +9,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            archiveArtifacts artifacts: 'Reports/**/*.*', fingerprint: true
-            junit 'Reports/**/JUnit_Report.xml'
-        }
-    }
 }
