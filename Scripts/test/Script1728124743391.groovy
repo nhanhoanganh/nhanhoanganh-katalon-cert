@@ -23,9 +23,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-test.s3.amazonaws.com/aut/html/alert.html')
 
-
 WebDriver driver = DriverFactory.getWebDriver()
 
 WebUI.click(findTestObject('Object Repository/Page_Demo AUT/button_Click to show alert'))
 
-driver.switchTo().alert().accept();
+driver.switchTo().alert().accept()
+
+WebUI.closeBrowser()
+
