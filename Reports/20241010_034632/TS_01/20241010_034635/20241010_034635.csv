@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,Chrome 128.0.0.0,,,10-10-2024 03:46:44,10-10-2024 03:46:52,7.705s,FAILED
+,,,,,,,
+Test Cases/TC_10_Verify Subscription in home page,Chrome 128.0.0.0,,,10-10-2024 03:46:44,10-10-2024 03:46:52,7.331s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-10-2024 03:46:45,10-10-2024 03:46:49,4.477s,PASSED
+"navigateToUrl(""https://www.automationexercise.com/"")",Chrome 128.0.0.0,,,10-10-2024 03:46:49,10-10-2024 03:46:52,2.619s,FAILED

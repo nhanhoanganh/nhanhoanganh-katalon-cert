@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,Chrome 129.0.0.0,,,10-10-2024 10:43:18,10-10-2024 10:44:29,1m - 10.973s,FAILED
+,,,,,,,
+Test Cases/TC_10_Verify Subscription in home page,Chrome 129.0.0.0,,,10-10-2024 10:44:13,10-10-2024 10:44:29,16.000s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,10-10-2024 10:44:13,10-10-2024 10:44:14,0.820s,PASSED
+"navigateToUrl(""https://www.automationexercise.com/"")",Chrome 129.0.0.0,,,10-10-2024 10:44:14,10-10-2024 10:44:17,2.941s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Automation Exercise/h2_Subscription""), 0)",Chrome 129.0.0.0,,,10-10-2024 10:44:17,10-10-2024 10:44:18,1.189s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise/h2_Subscription""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,10-10-2024 10:44:18,10-10-2024 10:44:20,2.026s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Exercise/input_Subscription_susbscribe_email""), ""nhan@katalon.com"")",Chrome 129.0.0.0,,,10-10-2024 10:44:20,10-10-2024 10:44:25,5.080s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/i_Subscription_fa fa-arrow-circle-o-right""))",Chrome 129.0.0.0,,,10-10-2024 10:44:25,10-10-2024 10:44:27,1.934s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise/div_You have been successfully subscribed""))",Chrome 129.0.0.0,,,10-10-2024 10:44:27,10-10-2024 10:44:29,1.995s,FAILED

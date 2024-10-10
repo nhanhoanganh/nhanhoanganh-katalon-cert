@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_03,Chrome 128.0.0.0,,,10-10-2024 03:38:23,10-10-2024 03:38:31,8.369s,FAILED
+,,,,,,,
+Test Cases/TC_03_Login with incorrect email password,Chrome 128.0.0.0,,,10-10-2024 03:38:23,10-10-2024 03:38:31,7.986s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-10-2024 03:38:23,10-10-2024 03:38:28,4.708s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 128.0.0.0,,,10-10-2024 03:38:28,10-10-2024 03:38:31,3.023s,FAILED
