@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_02,Chrome 128.0.0.0,,,10-10-2024 03:57:27,10-10-2024 03:57:40,12.649s,PASSED
+,,,,,,,
+Test Cases/test,Chrome 128.0.0.0,,,10-10-2024 03:57:27,10-10-2024 03:57:40,12.324s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-10-2024 03:57:28,10-10-2024 03:57:32,4.240s,PASSED
+"navigateToUrl(""https://katalon-test.s3.amazonaws.com/aut/html/alert.html"")",Chrome 128.0.0.0,,,10-10-2024 03:57:32,10-10-2024 03:57:39,6.873s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,10-10-2024 03:57:39,10-10-2024 03:57:39,0.035s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/button_Click to show alert""))",Chrome 128.0.0.0,,,10-10-2024 03:57:39,10-10-2024 03:57:39,0.633s,PASSED
+alert().accept(),Chrome 128.0.0.0,,,10-10-2024 03:57:39,10-10-2024 03:57:40,0.056s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,10-10-2024 03:57:40,10-10-2024 03:57:40,0.096s,PASSED

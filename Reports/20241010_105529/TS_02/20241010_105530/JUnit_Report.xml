@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_02" time="11.413" tests="1" failures="0" errors="0">
+   <testsuite name="TS_02" tests="1" failures="0" errors="0" time="11.413" skipped="0" timestamp="10-10-2024T10:55:36" hostname="nhan.hoang - localhost" id="Test Suites/TS_02">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241010_105529/TS_02/20241010_105530"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241010_105529/TS_02/20241010_105530/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="3d85746c10108d8a940d52c9aeefef03"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/test" time="11.343" classname="Test Cases/test" status="PASSED">
+         <system-out><![CDATA[10-10-2024T10:55:36 - [TEST_CASE][PASSED] - Test Cases/test: Test Cases/test
+
+10-10-2024T10:55:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-10-2024T10:55:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-10-2024T10:55:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-10-2024T10:55:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-10-2024T10:55:38 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-test.s3.amazonaws.com/aut/html/alert.html"): Navigate to 'https://katalon-test.s3.amazonaws.com/aut/html/alert.html' successfully
+
+10-10-2024T10:55:46 - [MESSAGE][PASSED] - Navigate to 'https://katalon-test.s3.amazonaws.com/aut/html/alert.html' successfully
+
+10-10-2024T10:55:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+10-10-2024T10:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/button_Click to show alert")): Object: 'Object Repository/Page_Demo AUT/button_Click to show alert' is clicked on
+
+10-10-2024T10:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/button_Click to show alert' is clicked on
+
+10-10-2024T10:55:47 - [TEST_STEP][PASSED] - alert().accept(): null
+
+10-10-2024T10:55:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-10-2024T10:55:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-10-2024T10:55:36 - [TEST_SUITE][PASSED] - TS_02: Test Cases/test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
