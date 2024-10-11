@@ -30,4 +30,11 @@
          <variableId>e19088e4-91a2-4094-a710-0297f15deb1d</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d4657a74-7863-48bd-9681-44c7f3439e31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/close browser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

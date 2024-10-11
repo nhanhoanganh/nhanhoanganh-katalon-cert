@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_04,,,,11-10-2024 21:40:45,11-10-2024 21:40:45,0.432s,FAILED
+,,,,,,,
+Test Cases/TC_04_Logout,,,,11-10-2024 21:40:45,11-10-2024 21:40:45,0.344s,FAILED
+"callTestCase(findTestCase(""TC_02_Login with correct email password""), [:], STOP_ON_FAILURE)",,,,11-10-2024 21:40:45,11-10-2024 21:40:45,0.278s,FAILED

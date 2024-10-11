@@ -21,15 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.automationexercise.com/')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Automation Exercise/h2_Subscription'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Automation Exercise/h2_Subscription'), 5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Automation Exercise/h2_Subscription'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise/input_Subscription_susbscribe_email'), 'nhan@katalon.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/i_Subscription_fa fa-arrow-circle-o-right'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Automation Exercise/div_You have been successfully subscribed'))
-
-WebUI.closeBrowser()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_24_Verify logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>feea2715-dde8-44a1-bfeb-c970b6c5a1c1</testCaseGuid>
+</TestCaseEntity>

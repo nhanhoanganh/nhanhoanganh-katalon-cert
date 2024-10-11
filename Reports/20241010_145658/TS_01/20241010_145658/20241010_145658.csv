@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:03,10-10-2024 14:57:41,38.416s,FAILED
+,,,,,,,
+Test Cases/TC_10_Verify Subscription in home page,TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:03,10-10-2024 14:57:41,38.328s,FAILED
+"openBrowser("""")",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:03,10-10-2024 14:57:26,22.848s,PASSED
+"navigateToUrl(""https://www.automationexercise.com/"")",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:26,10-10-2024 14:57:28,1.757s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Automation Exercise/h2_Subscription""), 0)",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:28,10-10-2024 14:57:30,2.394s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise/h2_Subscription""), STOP_ON_FAILURE)",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:30,10-10-2024 14:57:32,1.942s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Exercise/input_Subscription_susbscribe_email""), ""nhan@katalon.com"")",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:32,10-10-2024 14:57:36,3.487s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/i_Subscription_fa fa-arrow-circle-o-right""))",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:36,10-10-2024 14:57:37,1.708s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise/div_You have been successfully subscribed""))",TestCloud - macOS - Chrome 129.0.0.0,,,10-10-2024 14:57:37,10-10-2024 14:57:41,4.121s,FAILED

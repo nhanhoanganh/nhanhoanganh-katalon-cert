@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_26_Verify demo - switch to alert</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd3ee427-c9ed-4dfb-b389-4991d1e3c7a2</testCaseGuid>
+</TestCaseEntity>

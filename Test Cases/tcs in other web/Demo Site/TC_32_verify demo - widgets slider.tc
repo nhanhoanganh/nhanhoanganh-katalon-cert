@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_32_verify demo - widgets slider</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e35dc3d9-3baf-4847-b938-3da167c12c71</testCaseGuid>
+</TestCaseEntity>

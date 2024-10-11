@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_25_Verify demo - webtable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3e2de96-06c0-4205-b8f2-f514ab70d34a</testCaseGuid>
+</TestCaseEntity>

@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Home / Shop&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>nav</value>
-      <webElementGuid>e8bbd2d1-bb9d-4555-b9c3-778f30a0460a</webElementGuid>
+      <webElementGuid>fa0030a8-5d47-4635-b1af-a4e745b6e015</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>woocommerce-breadcrumb</value>
-      <webElementGuid>66b6e5f5-b8d2-40e7-ae62-09deda266eb4</webElementGuid>
+      <webElementGuid>feab5484-c05d-4629-bd4b-f3182b6b593b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Home / Shop</value>
-      <webElementGuid>5e89e31b-f41e-4b18-b830-8a2f8730fe65</webElementGuid>
+      <webElementGuid>d968135d-9197-4549-aae7-05eeb6e0b003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/nav[@class=&quot;woocommerce-breadcrumb&quot;]</value>
-      <webElementGuid>e6537e01-4b4f-4d8b-b034-12f5b680bc57</webElementGuid>
+      <webElementGuid>237a3c4d-0e45-4e39-b5ea-04efc416ab58</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content']/nav</value>
-      <webElementGuid>f1a08831-8f48-41d2-bd32-8669c24e006b</webElementGuid>
+      <webElementGuid>cd09e797-3d90-4cec-9408-fdddf412a5e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹0.00'])[1]/following::nav[1]</value>
-      <webElementGuid>59b2e50b-1c62-42bd-a958-af108a73c9c3</webElementGuid>
+      <webElementGuid>71cef855-9ae3-478e-b849-a10d43283c1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo Site'])[1]/following::nav[1]</value>
-      <webElementGuid>669a5feb-513d-47a8-a309-b8c90c2c1957</webElementGuid>
+      <webElementGuid>bae8128e-a431-45d5-a7d6-7f03111a1321</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale!'])[1]/preceding::nav[1]</value>
-      <webElementGuid>3169b737-dd9c-494a-aa39-0064f2ff47eb</webElementGuid>
+      <webElementGuid>0b66b66f-666b-4f96-867a-f4ee709c4309</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/nav</value>
-      <webElementGuid>22b24153-b594-4f20-a889-c2888690c8da</webElementGuid>
+      <webElementGuid>5b652bf7-e785-48f0-97ee-7dc096f9dc61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//nav[(text() = 'Home / Shop' or . = 'Home / Shop')]</value>
-      <webElementGuid>eca95e97-2636-425f-9295-65f5162bb090</webElementGuid>
+      <webElementGuid>b8d7f1ba-c84d-4ef0-8420-24405d71ddb3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

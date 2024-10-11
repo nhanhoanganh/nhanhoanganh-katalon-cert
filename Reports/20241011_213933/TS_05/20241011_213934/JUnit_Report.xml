@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_05" time="24.38" tests="1" failures="0" errors="0">
+   <testsuite name="TS_05" tests="1" failures="0" errors="0" time="24.38" skipped="0" timestamp="11-10-2024T21:39:40" hostname="nhan.hoang - 192.168.2.48" id="Test Suites/TS_05">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241011_213933/TS_05/20241011_213934"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241011_213933/TS_05/20241011_213934/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - 192.168.2.48"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.48"/>
+         <property name="sessionId" value="a6bd5e581e23ac4fe1a688b2586c005e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_05_Register User with existing email" time="24.305" classname="Test Cases/TC_05_Register User with existing email" status="PASSED">
+         <system-out><![CDATA[11-10-2024T21:39:40 - [TEST_CASE][PASSED] - Test Cases/TC_05_Register User with existing email: Test Cases/TC_05_Register User with existing email
+
+11-10-2024T21:39:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-10-2024T21:39:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-10-2024T21:39:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-10-2024T21:39:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-10-2024T21:39:42 - [TEST_STEP][PASSED] - navigateToUrl("https://automationexercise.com/"): Navigate to 'https://automationexercise.com/' successfully
+
+11-10-2024T21:39:45 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully
+
+11-10-2024T21:39:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise/a_Signup  Login")): Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+11-10-2024T21:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+11-10-2024T21:39:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup"), "New User Signup!"): Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+11-10-2024T21:39:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+11-10-2024T21:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name"), name): Text 'nhan anh' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'
+
+11-10-2024T21:39:54 - [MESSAGE][PASSED] - Text 'nhan anh' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'
+
+11-10-2024T21:39:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email"), "nhantest@katalon.com"): Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'
+
+11-10-2024T21:39:58 - [MESSAGE][PASSED] - Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'
+
+11-10-2024T21:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/button_Signup")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Signup' is clicked on
+
+11-10-2024T21:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Signup' is clicked on
+
+11-10-2024T21:40:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/p_Email Address already exist"), "Email Address already exist!"): Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Email Address already exist' are matched.
+
+11-10-2024T21:40:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Email Address already exist' are matched.
+
+11-10-2024T21:40:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-10-2024T21:40:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-10-2024T21:39:40 - [TEST_SUITE][PASSED] - TS_05: Test Cases/TC_05_Register User with existing email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

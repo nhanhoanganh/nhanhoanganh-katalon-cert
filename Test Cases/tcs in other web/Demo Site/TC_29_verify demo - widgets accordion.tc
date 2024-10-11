@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_29_verify demo - widgets accordion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d09b7a0-c45d-42be-a29e-613c7d1660c8</testCaseGuid>
+</TestCaseEntity>

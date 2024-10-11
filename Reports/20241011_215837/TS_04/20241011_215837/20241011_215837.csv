@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_04,Chrome 129.0.0.0,,,11-10-2024 21:58:42,11-10-2024 21:59:03,21.428s,PASSED
+,,,,,,,
+Test Cases/TC_04_Logout,Chrome 129.0.0.0,,,11-10-2024 21:58:42,11-10-2024 21:59:03,21.342s,PASSED
+"callTestCase(findTestCase(""TC_02_Login with correct email password""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,11-10-2024 21:58:42,11-10-2024 21:59:01,19.430s,PASSED
+"click(findTestObject(""Page_Automation Exercise/a_Logout""))",Chrome 129.0.0.0,,,11-10-2024 21:59:01,11-10-2024 21:59:03,1.231s,PASSED
+waitForPageLoad(wait_time),Chrome 129.0.0.0,,,11-10-2024 21:59:03,11-10-2024 21:59:03,0.057s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,11-10-2024 21:59:03,11-10-2024 21:59:03,0.542s,PASSED

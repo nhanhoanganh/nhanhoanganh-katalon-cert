@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Check the autocomplete functionality here</name>
+   <tag></tag>
+   <elementGuidId>7fc0a056-04a6-4221-bb00-d8633e4858cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='somelem']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#somelem</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Check the autocomplete functionality here&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>62cbee11-90c6-47b0-8a34-c984a015a97a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>somelem</value>
+      <webElementGuid>80f18b9d-97e9-4a60-b80b-0b770bf4050b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check the autocomplete functionality here</value>
+      <webElementGuid>db935253-6f0c-4ae3-828e-af77d023851f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;somelem&quot;)</value>
+      <webElementGuid>737b97a3-b322-4664-b73b-ccc3fe3aac84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='somelem']</value>
+      <webElementGuid>0c0343a5-ea27-4a9a-85e0-8263f9fd78e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Practice Site'])[1]/following::label[1]</value>
+      <webElementGuid>8e94240b-7ef1-4ed6-9199-d3e128bc71d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ProgressBar'])[1]/following::label[1]</value>
+      <webElementGuid>abef0451-7c9b-4724-84ec-b23890fc182e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]/body[1]/section[1]'])[1]/preceding::label[1]</value>
+      <webElementGuid>0ec0b4de-5a2c-436e-8ac4-bd1cfbaae272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Check the autocomplete functionality here']/parent::*</value>
+      <webElementGuid>cc9cd926-1f20-4f26-84b9-9a9dfb7c4c4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>f1251f54-fe6d-46c2-b2c9-ccf56f4f355b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'somelem' and (text() = 'Check the autocomplete functionality here' or . = 'Check the autocomplete functionality here')]</value>
+      <webElementGuid>4a50bda8-b1d6-4d5a-bccb-f41b2303faea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

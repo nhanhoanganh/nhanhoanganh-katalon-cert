@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_04" time="21.428" tests="1" failures="0" errors="0">
+   <testsuite name="TS_04" tests="1" failures="0" errors="0" time="21.428" skipped="0" timestamp="11-10-2024T21:58:42" hostname="nhan.hoang - 192.168.2.48" id="Test Suites/TS_04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241011_215837/TS_04/20241011_215837"/>
+         <property name="logFiles" value="/Users/nhan.hoang/Documents/nhanhoanganh-katalon-cert/Reports/20241011_215837/TS_04/20241011_215837/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhan.hoang - 192.168.2.48"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.48"/>
+         <property name="sessionId" value="ee6f08071de8dd7b09e63ee5e853ab84"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_04_Logout" time="21.342" classname="Test Cases/TC_04_Logout" status="PASSED">
+         <system-out><![CDATA[11-10-2024T21:58:42 - [TEST_CASE][PASSED] - Test Cases/TC_04_Logout: Test Cases/TC_04_Logout
+
+11-10-2024T21:58:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_02_Login with correct email password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_02_Login with correct email password' successfully
+
+11-10-2024T21:58:42 - [TEST_CASE][PASSED] - Test Cases/TC_02_Login with correct email password: Test Cases/TC_02_Login with correct email password
+
+11-10-2024T21:58:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-10-2024T21:58:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-10-2024T21:58:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-10-2024T21:58:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-10-2024T21:58:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://automationexercise.com/' successfully
+
+11-10-2024T21:58:52 - [MESSAGE][PASSED] - Navigate to 'https://automationexercise.com/' successfully
+
+11-10-2024T21:58:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise/a_Signup  Login")): Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+11-10-2024T21:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+11-10-2024T21:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email"), email): Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+11-10-2024T21:58:56 - [MESSAGE][PASSED] - Text 'nhantest@katalon.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+11-10-2024T21:58:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password"), "VFrE/ihxX88="): Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+11-10-2024T21:58:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+11-10-2024T21:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/button_Login")): Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+11-10-2024T21:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+11-10-2024T21:59:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Automation Exercise/a_Logout")): Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+11-10-2024T21:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+11-10-2024T21:59:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_02_Login with correct email password' successfully
+
+11-10-2024T21:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Automation Exercise/a_Logout")): Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+11-10-2024T21:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+11-10-2024T21:59:03 - [TEST_STEP][PASSED] - waitForPageLoad(wait_time): Wait for page load successfully
+
+11-10-2024T21:59:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-10-2024T21:59:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login"), STOP_ON_FAILURE): Object 'Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login' is visible
+
+11-10-2024T21:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup  Login/a_Signup  Login' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-10-2024T21:58:42 - [TEST_SUITE][PASSED] - TS_04: Test Cases/TC_04_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

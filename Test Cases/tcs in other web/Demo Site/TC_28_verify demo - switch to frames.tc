@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_28_verify demo - switch to frames</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>201a73a7-3d31-49df-953b-6eff9aa89b27</testCaseGuid>
+</TestCaseEntity>

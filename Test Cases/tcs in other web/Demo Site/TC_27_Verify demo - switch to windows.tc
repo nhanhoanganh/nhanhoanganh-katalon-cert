@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_27_Verify demo - switch to windows</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90deed62-fc4b-4b29-a547-36b7d442b18e</testCaseGuid>
+</TestCaseEntity>
