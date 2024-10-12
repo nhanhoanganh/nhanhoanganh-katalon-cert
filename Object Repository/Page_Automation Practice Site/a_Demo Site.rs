@@ -6,12 +6,12 @@
    <elementGuidId>575ac3bf-6b33-4498-ab21-a0102bf04690</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='menu-item-251']/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#menu-item-251 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-item-251']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Demo Site&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ed851c3b-9297-43a6-aa6d-fa519161668a</webElementGuid>
+      <webElementGuid>772b8489-cabe-49c4-ba30-e5c63c4c501c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>http://demo.automationtesting.in/Register.html</value>
-      <webElementGuid>d7583453-a703-4c54-b39c-d5a8eb570f7a</webElementGuid>
+      <webElementGuid>7179de02-7a77-407b-b27a-76ae02f2befe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Demo Site</value>
-      <webElementGuid>cd122bce-39dd-44f3-b73c-5679515762a4</webElementGuid>
+      <webElementGuid>b1fb8cce-7b9e-4d03-997f-bb9f5551b4d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu-item-251&quot;)/a[1]</value>
-      <webElementGuid>688ac076-fce4-42ee-9940-a177cb1bbb1d</webElementGuid>
+      <webElementGuid>871985de-690c-4771-a817-5d35c30b07f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='menu-item-251']/a</value>
-      <webElementGuid>f0cdeeae-f9b6-42d4-9521-c79ed0bffbc8</webElementGuid>
+      <webElementGuid>c6c9a337-4c9f-49fd-b5b9-86fd2d61418d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Demo Site')]</value>
-      <webElementGuid>f5e9ef34-cf43-43b2-9200-ca95eabdf81a</webElementGuid>
+      <webElementGuid>98973cde-2a34-4df7-8726-d1cc3b120455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AT Site'])[1]/following::a[1]</value>
-      <webElementGuid>22b66d51-c9c7-4dfc-ae95-a842d632ce80</webElementGuid>
+      <webElementGuid>48fc242b-f256-4900-a3fa-43ba2cf11581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Cases'])[1]/following::a[2]</value>
-      <webElementGuid>9377d724-69a2-4655-bfe6-b271618f8a9d</webElementGuid>
+      <webElementGuid>aef78b4d-36e2-4949-a269-792c12c53ead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹0.00'])[1]/preceding::a[1]</value>
-      <webElementGuid>32569a6e-4bdf-462f-8d33-ec2ac32f7b61</webElementGuid>
+      <webElementGuid>6d4d771a-a893-47c1-84f0-d80490381ef2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='new arrivals'])[1]/preceding::a[4]</value>
-      <webElementGuid>5ebc465b-0d2b-4a54-8ade-32ffe7ed750a</webElementGuid>
+      <webElementGuid>9f23291c-d6b8-4da6-963d-b2c78610af78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Demo Site']/parent::*</value>
-      <webElementGuid>8af85b63-5ab6-4fa0-a318-a3077a90fe88</webElementGuid>
+      <webElementGuid>a86c0644-d2e8-4025-a70a-90da8de66c13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[@href='http://demo.automationtesting.in/Register.html']</value>
-      <webElementGuid>5f3f25b0-adf5-4e1d-9930-5c0be9d64c0f</webElementGuid>
+      <webElementGuid>a0d9605a-5e2e-4a51-a285-a472ce0b40a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/a</value>
-      <webElementGuid>14fddcfe-2c13-430f-b519-71b08a535a5a</webElementGuid>
+      <webElementGuid>34e738e8-de9d-4f9e-b5ab-40535696f2ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'http://demo.automationtesting.in/Register.html' and (text() = 'Demo Site' or . = 'Demo Site')]</value>
-      <webElementGuid>197fb495-8755-41d8-87b6-1c1604ecbb28</webElementGuid>
+      <webElementGuid>be1ab413-f7ae-4c99-a368-6758c55a2b38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

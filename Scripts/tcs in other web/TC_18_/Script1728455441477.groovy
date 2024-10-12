@@ -27,7 +27,5 @@ WebUI.click(findTestObject('Page_Automation Practice Site/a_Shop'))
 
 WebUI.click(findTestObject('Object Repository/Page_Products  Automation Practice Site/button_Filter'))
 
-WebUI.click(findTestObject('Object Repository/Page_Products  Automation Practice Site/button_Filter'))
-
 WebUI.closeBrowser()
 

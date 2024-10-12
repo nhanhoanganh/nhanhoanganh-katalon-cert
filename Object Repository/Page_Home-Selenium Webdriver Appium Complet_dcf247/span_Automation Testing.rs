@@ -4,10 +4,19 @@
    <name>span_Automation Testing</name>
    <tag></tag>
    <elementGuidId>817f4245-5471-4c84-bbbb-44957c129fd8</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Automation Testing' or . = 'Automation Testing')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='site-description']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>da5823fd-1777-4d0c-88ef-9ba577285484</webElementGuid>
+      <webElementGuid>f04178ec-7f53-4a83-8dd4-c598f70369f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>google-anno-t</value>
-      <webElementGuid>bd99bdfc-fef0-4aee-9c1e-dff1ffc3ab0b</webElementGuid>
+      <webElementGuid>6c535e18-2c19-4f65-b0af-7b6eda4c1997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Automation Testing</value>
-      <webElementGuid>90e45458-e995-4bb9-956d-e3219207ec14</webElementGuid>
+      <webElementGuid>b8d0ba96-6449-4f7e-a5af-ae392de6bb09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;site-description&quot;)/span[1]/a[@class=&quot;google-anno&quot;]/span[@class=&quot;google-anno-t&quot;]</value>
-      <webElementGuid>25bd7ace-75c7-485a-b279-84f27f09494d</webElementGuid>
+      <webElementGuid>7ee376cb-20b1-4a60-a803-763d62db84d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='site-description']/span/a/span</value>
-      <webElementGuid>64ffb90b-351e-4410-98b0-e838aaab824c</webElementGuid>
+      <webElementGuid>63f74733-8855-42fd-bdb9-3f88e1ecc30a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selenium Webdriver Appium Complete Tutorial'])[1]/following::span[2]</value>
-      <webElementGuid>ca26c69d-77b5-466e-8744-fe41ee7cda05</webElementGuid>
+      <webElementGuid>6b5f7149-6cb8-4c41-9d83-2d14618670b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tools'])[1]/preceding::span[1]</value>
-      <webElementGuid>600b5d60-e617-4281-93ac-9b30d4a24706</webElementGuid>
+      <webElementGuid>c295ccad-2600-4c3f-8108-7e6dba66e5de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selenium Java Tutorial'])[1]/preceding::span[3]</value>
-      <webElementGuid>cbc57616-0b38-427f-8777-cea07b624899</webElementGuid>
+      <webElementGuid>5690a4de-e7c2-4d45-8be6-1942ea757a9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Automation Testing']/parent::*</value>
-      <webElementGuid>0e17da1c-578f-4b11-a87e-bc8dd5854d68</webElementGuid>
+      <webElementGuid>b2c70ff2-707b-41d4-853a-88794f02c7a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/a/span</value>
-      <webElementGuid>d90ed5b0-e305-4601-94ff-5e6021fb67d7</webElementGuid>
+      <webElementGuid>b85a1cbc-9c11-410b-a527-cc38b7a1320b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Automation Testing' or . = 'Automation Testing')]</value>
-      <webElementGuid>fced8993-94cf-4999-83b2-664740a3d7ab</webElementGuid>
+      <webElementGuid>47dc625d-82eb-488f-a629-3fe3b89b8916</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

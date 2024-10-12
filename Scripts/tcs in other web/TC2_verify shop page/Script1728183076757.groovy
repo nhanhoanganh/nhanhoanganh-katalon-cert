@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('tcs in other web/TC1_navigate to practice automation page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementPresent(findTestObject('Page_Automation Practice Site/a_Shop'), 5)
+
 WebUI.click(findTestObject('Page_Automation Practice Site/a_Shop'))
 
 WebUI.closeBrowser()

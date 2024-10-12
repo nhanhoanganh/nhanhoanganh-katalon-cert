@@ -18,10 +18,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Filter&quot;i]</value>
+         <value>internal:role=button[name=&quot;Filtesr&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0a62d301-6e1a-418c-8e9a-7a54ff46314f</webElementGuid>
+      <webElementGuid>6bf43b39-4c97-4038-9a5f-bbf8881c4731</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>6587fe46-73b0-43e3-bf8f-447e53a6b51f</webElementGuid>
+      <webElementGuid>57f8640f-86ac-4d77-b3e1-63dab4b36bc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8bdf2726-145a-42d3-b629-88d8074a76ee</webElementGuid>
+      <webElementGuid>defb683b-2a22-41b3-a768-34305f9640b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Filter</value>
-      <webElementGuid>c2504a53-c678-4f8a-832a-d14f4d8f7f2f</webElementGuid>
+      <webElementGuid>2eb7a81e-9ff8-45d9-b29d-84c7b8089be8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;woocommerce_price_filter-2&quot;)/form[1]/div[@class=&quot;price_slider_wrapper&quot;]/div[@class=&quot;price_slider_amount&quot;]/button[@class=&quot;button&quot;]</value>
-      <webElementGuid>9317bb47-83ee-4a40-affb-c26735f17ea9</webElementGuid>
+      <webElementGuid>59f79a45-0bbb-4609-bbbc-0292f20c40a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>e8d273ff-4c45-460d-bdb3-80abebd98d57</webElementGuid>
+      <webElementGuid>aa575010-7f06-4ef5-b85f-a63cc3592ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='woocommerce_price_filter-2']/form/div/div[2]/button</value>
-      <webElementGuid>40d2d74a-aded-48cc-9df7-0fb2ce496e25</webElementGuid>
+      <webElementGuid>2701d3e3-25e1-4c25-a1c6-75aa66c24998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by price'])[1]/following::button[1]</value>
-      <webElementGuid>ba93c7c4-2e11-4ebe-941a-e5840e2c40ed</webElementGuid>
+      <webElementGuid>939b2373-b514-4185-86fc-6fd411eb3e17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refine By >'])[1]/following::button[1]</value>
-      <webElementGuid>ab16fb76-3a4b-40eb-9337-8ae83f958610</webElementGuid>
+      <webElementGuid>5a85284d-d920-4ee9-811f-c79f9712d478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹150'])[1]/preceding::button[1]</value>
-      <webElementGuid>664aabb2-a7e3-4e3b-a0a3-d19747192b48</webElementGuid>
+      <webElementGuid>5dd46f25-52a5-42f5-bf49-c2e3d7be8286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
-      <webElementGuid>b5b2cb4e-037b-42ce-97c6-680a1208586f</webElementGuid>
+      <webElementGuid>b296ab8c-c76e-4449-87b8-f2788d2b8498</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>31e03014-d56b-4ce3-8aa9-decb422ce70c</webElementGuid>
+      <webElementGuid>0ddce2e1-d68e-4ae8-b497-edee968cc57b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Filter' or . = 'Filter')]</value>
-      <webElementGuid>c4f370d1-0f70-48a8-b89c-c00b4cf27a65</webElementGuid>
+      <webElementGuid>04dfa8f7-ca82-4dcf-beba-a2f130f72a38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

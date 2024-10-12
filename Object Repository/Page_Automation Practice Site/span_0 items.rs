@@ -6,12 +6,12 @@
    <elementGuidId>a5085212-afd3-48a0-899e-2b2cf7e02d65</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='wpmenucartli']/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.cartcontents</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='wpmenucartli']/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b9b189b6-230d-4a89-ad31-6cd9620e972e</webElementGuid>
+      <webElementGuid>cda39e89-907c-48ee-adf7-f3dd4a414bab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cartcontents</value>
-      <webElementGuid>c565b5b0-1d49-43d7-9f67-154b8f21f4d7</webElementGuid>
+      <webElementGuid>61595f31-e4d2-4ecf-aa36-a0a36eea67f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0 items</value>
-      <webElementGuid>5dd83830-52ff-4261-9e6a-b1a945ae2d8e</webElementGuid>
+      <webElementGuid>69c7d734-6efa-4122-8075-e42d764b1924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wpmenucartli&quot;)/a[@class=&quot;wpmenucart-contents empty-wpmenucart-visible&quot;]/span[@class=&quot;cartcontents&quot;]</value>
-      <webElementGuid>b57fcfa6-8a37-4679-a0a1-10c514f42b8b</webElementGuid>
+      <webElementGuid>11289d7b-b706-4603-be1d-75949cce4f36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='wpmenucartli']/a/span</value>
-      <webElementGuid>f7058e55-973d-443d-9c0e-0e2b9e470c6f</webElementGuid>
+      <webElementGuid>3f9218c2-eddc-42ba-907b-8cdea0f4e15c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo Site'])[1]/following::span[1]</value>
-      <webElementGuid>1815e410-35ef-40d4-9acc-19bc5af65ee7</webElementGuid>
+      <webElementGuid>bf6c2bfb-7b6b-4f9f-8847-d39615ac99bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AT Site'])[1]/following::span[1]</value>
-      <webElementGuid>9712406b-4f23-4bdf-bdd2-8e8866e62cf9</webElementGuid>
+      <webElementGuid>524fd9d8-728a-4262-8ab9-efbba30dd4a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹0.00'])[1]/preceding::span[1]</value>
-      <webElementGuid>aebdd346-ce73-49a1-aede-ba1d81012bde</webElementGuid>
+      <webElementGuid>c6fb574f-d040-46fc-9ce3-2fb81c7f6913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='new arrivals'])[1]/preceding::span[2]</value>
-      <webElementGuid>f370582d-c13c-4d3b-ac76-25e6ec82e2fd</webElementGuid>
+      <webElementGuid>aa00e3c6-6cee-46b2-b359-c8a1cb6f2708</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='0 items']/parent::*</value>
-      <webElementGuid>3492737d-89cb-4245-9e3b-29ec538b3753</webElementGuid>
+      <webElementGuid>40b0a2f6-2266-4898-a158-b5b2b33cd9e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/span</value>
-      <webElementGuid>2e63033d-7178-4532-8dcf-dc63228115a0</webElementGuid>
+      <webElementGuid>27aedde4-ddcb-418f-bacb-a04d5a8252e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '0 items' or . = '0 items')]</value>
-      <webElementGuid>8270bbc2-7bdb-455e-bc91-3a6d88d15a82</webElementGuid>
+      <webElementGuid>a4e146d8-5147-4bac-9069-22c698f583cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
