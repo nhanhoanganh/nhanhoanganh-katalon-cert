@@ -17,33 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-/* Write a Katalon Studio test case to perform the following steps.
- * 1. Open browser to the URL stored in G_SiteURL
- * 2. Click the make appointment button
- * 3. Fill in the username and password fields based on the variables
- * 4. Click the login button
- * 5. Verify that the appointment div exists
- * 6. Close the browser
-// 1. Open browser to the URL stored in G_SiteURL
- * 
- */
-
+//1) Open the browser
+//2) Enter the URL “http://practice.automationtesting.in/”
+//3) Click on Shop Menu
+//4) Now click on Home menu button
+//5) Test whether the Home page has Three Arrivals only
+//6) The Home page must contains only three Arrivals
+// Open the browser
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
-// 2. Click the make appointment button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+// Enter the URL "http://practice.automationtesting.in/"
+WebUI.navigateToUrl('http://practice.automationtesting.in/')
 
-// 3. Fill in the username and password fields based on the variables
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Username'), username)
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Password'), password)
+// Click on Shop Menu
+WebUI.click(findTestObject('Page_CURAHomepage - CURAHomepage/a_Shop'))
 
-// 4. Click the login button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_Login'))
+// Click on Home menu button
+WebUI.click(findTestObject('Page_CURAHomepage - CURAHomepage/a_Home'))
 
-// 5. Verify that the appointment div exists
-WebUI.verifyElementPresent(findTestObject('Page_CuraHomepage/div_Appointment'))
+// Test whether the Home page has Three Arrivals only
+WebUI.verifyElementPresent(findTestObject('Page_CURAHomepage - CURAHomepage_div_ThreeArrivals'), 10)
 
-// 6. Close the browser
-WebUI.closeBrowser()
+// The Home page must contains only three Arrivals
+WebUI.verifyElementVisible(findTestObject('Page_CURAHomepage - CURAHomepage_div_ThreeArrivals'), 10)

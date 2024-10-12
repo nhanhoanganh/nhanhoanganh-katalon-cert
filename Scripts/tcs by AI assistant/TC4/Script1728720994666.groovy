@@ -18,32 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-/* Write a Katalon Studio test case to perform the following steps.
- * 1. Open browser to the URL stored in G_SiteURL
- * 2. Click the make appointment button
- * 3. Fill in the username and password fields based on the variables
- * 4. Click the login button
- * 5. Verify that the appointment div exists
- * 6. Close the browser
-// 1. Open browser to the URL stored in G_SiteURL
- * 
- */
-
+//1. Launch browser
+//2. Navigate to url 'http://automationexercise.com'
+//3. Verify that home page is visible successfully
+//4. Close browser
+// Launch browser
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
-// 2. Click the make appointment button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+// Navigate to url 'http://automationexercise.com'
+WebUI.navigateToUrl('http://automationexercise.com')
+// Close browser
 
-// 3. Fill in the username and password fields based on the variables
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Username'), username)
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Password'), password)
-
-// 4. Click the login button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_Login'))
-
-// 5. Verify that the appointment div exists
-WebUI.verifyElementPresent(findTestObject('Page_CuraHomepage/div_Appointment'))
-
-// 6. Close the browser
 WebUI.closeBrowser()

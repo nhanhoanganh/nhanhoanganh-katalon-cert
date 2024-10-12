@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_20_Search Products and Verify Cart After Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35f0671f-ef6b-4163-a38c-5369364aea48</testCaseGuid>
+</TestCaseEntity>

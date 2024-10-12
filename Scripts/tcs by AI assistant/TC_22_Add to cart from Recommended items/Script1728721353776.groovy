@@ -17,33 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-/* Write a Katalon Studio test case to perform the following steps.
- * 1. Open browser to the URL stored in G_SiteURL
- * 2. Click the make appointment button
- * 3. Fill in the username and password fields based on the variables
- * 4. Click the login button
- * 5. Verify that the appointment div exists
- * 6. Close the browser
-// 1. Open browser to the URL stored in G_SiteURL
- * 
- */
-
+//1. Launch browser
+//2. Navigate to url 'http://automationexercise.com'
+//3. Scroll to bottom of page
+//4. Verify 'RECOMMENDED ITEMS' are visible
+//5. Click on 'Add To Cart' on Recommended product
+//6. Click on 'View Cart' button
+//7. Verify that product is displayed in cart page
+// 1. Launch browser
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
-// 2. Click the make appointment button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+// 2. Navigate to url 'http://automationexercise.com'
+WebUI.navigateToUrl('http://automationexercise.com')
 
-// 3. Fill in the username and password fields based on the variables
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Username'), username)
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Password'), password)
+// 3. Scroll to bottom of page
+WebUI.scrollToElement(findTestObject('Page_automationexercise.com/Page_Automation Exercise/a_RECOMMENDED ITEMS'))
 
-// 4. Click the login button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_Login'))
+// 4. Verify 'RECOMMENDED ITEMS' are visible
+WebUI.verifyElementVisible(findTestObject('Page_automationexercise.com/Page_Automation Exercise/a_RECOMMENDED ITEMS'), 10)
 
-// 5. Verify that the appointment div exists
-WebUI.verifyElementPresent(findTestObject('Page_CuraHomepage/div_Appointment'))
+// 5. Click on 'Add To Cart' on Recommended product
+WebUI.click(findTestObject('Page_automationexercise.com/Page_Automation Exercise/button_Add to cart'))
 
-// 6. Close the browser
-WebUI.closeBrowser()
+// 6. Click on 'View Cart' button
+WebUI.click(findTestObject('Page_automationexercise.com/Page_Automation Exercise/button_View cart'))
+
+// 7. Verify that product is displayed in cart page
+WebUI.verifyElementVisible(findTestObject('Page_automationexercise.com/Page_Automation Exercise/div_Product in cart'), 10)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_25_Verify Scroll Up using Arrow button and Scroll Down functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9db316d-ac96-4b49-bf4e-fdfceb14723e</testCaseGuid>
+</TestCaseEntity>

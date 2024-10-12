@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_24_Download Invoice after purchase order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f0ccf56-80c0-4de7-a917-f10edd257697</testCaseGuid>
+</TestCaseEntity>

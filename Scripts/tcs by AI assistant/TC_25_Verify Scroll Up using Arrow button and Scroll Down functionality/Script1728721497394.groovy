@@ -17,33 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-/* Write a Katalon Studio test case to perform the following steps.
- * 1. Open browser to the URL stored in G_SiteURL
- * 2. Click the make appointment button
- * 3. Fill in the username and password fields based on the variables
- * 4. Click the login button
- * 5. Verify that the appointment div exists
- * 6. Close the browser
-// 1. Open browser to the URL stored in G_SiteURL
- * 
- */
-
+//1. Launch browser
+//2. Navigate to url 'http://automationexercise.com'
+//3. Verify that home page is visible successfully
+//4. Scroll down page to bottom
+//5. Verify 'SUBSCRIPTION' is visible
+//6. Click on arrow at bottom right side to move upward
+//7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+// 1. Launch browser
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
-// 2. Click the make appointment button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+// 2. Navigate to url 'http://automationexercise.com'
+WebUI.navigateToUrl('http://automationexercise.com')
 
-// 3. Fill in the username and password fields based on the variables
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Username'), username)
-WebUI.setText(findTestObject('Page_CuraHomepage/input_Password'), password)
+// 3. Verify that home page is visible successfully
+WebUI.verifyElementPresent(findTestObject('Page_Home'))
 
-// 4. Click the login button
-WebUI.click(findTestObject('Page_CuraHomepage/btn_Login'))
+// 4. Scroll down page to bottom
+WebUI.scrollToElement(findTestObject('Page_Footer'))
 
-// 5. Verify that the appointment div exists
-WebUI.verifyElementPresent(findTestObject('Page_CuraHomepage/div_Appointment'))
+// 5. Verify 'SUBSCRIPTION' is visible
+WebUI.verifyElementVisible(findTestObject('Text_Subscription'))
 
-// 6. Close the browser
-WebUI.closeBrowser()
+// 6. Click on arrow at bottom right side to move upward
+WebUI.click(findTestObject('Button_ArrowUp'))
+
+// 7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+WebUI.verifyElementVisible(findTestObject('Text_FullFledgedWebsite'))

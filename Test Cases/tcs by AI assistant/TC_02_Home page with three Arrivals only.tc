@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_Home page with three Arrivals only</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>183cc966-1ae0-4911-8be9-1208e427f6cb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_26_Verify Scroll Up without Arrow button and Scroll Down functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86b00f61-3a4f-4951-9535-b1195673da6f</testCaseGuid>
+</TestCaseEntity>
